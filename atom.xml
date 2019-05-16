@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kmokid.github.io/"/>
-  <updated>2019-05-09T13:29:52.118Z</updated>
+  <updated>2019-05-16T14:33:46.718Z</updated>
   <id>https://kmokid.github.io/</id>
   
   <author>
@@ -17,13 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>my frist blog</title>
-    <link href="https://kmokid.github.io/2019/05/09/my-frist-blog/"/>
-    <id>https://kmokid.github.io/2019/05/09/my-frist-blog/</id>
-    <published>2019-05-09T13:12:53.000Z</published>
-    <updated>2019-05-09T13:29:52.118Z</updated>
+    <title>My second blog</title>
+    <link href="https://kmokid.github.io/2019/05/10/My-second-blog/"/>
+    <id>https://kmokid.github.io/2019/05/10/My-second-blog/</id>
+    <published>2019-05-10T06:00:03.000Z</published>
+    <updated>2019-05-16T14:33:46.718Z</updated>
     
-    <content type="html"><![CDATA[<p>以下是正文部分</p><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>近些年来很多用户都喜欢使用 GitHub Pages 来搭建 Hexo 静态博客网站，其最吸引人的莫过于完全免费使用，并且非常稳定。</p><p>虽然搭建时比较麻烦，有点折腾，但是配置完成后，基本不需要操心维护的事，甚至放了几年都忘记了，打开来看文章依然还在。</p><p>本文就详细介绍下如何使用 Hexo + GitHub 搭建免费个人博客网站的教程。</p><p><strong>参考来自</strong>：<a href="https://zhuanlan.zhihu.com/p/60578464" title="参考资料" target="_blank" rel="noopener">知乎crystal</a></p><h1 id="什么是-Hexo？"><a href="#什么是-Hexo？" class="headerlink" title="什么是 Hexo？"></a>什么是 Hexo？</h1><hr><p><img src="/2019/05/09/my-frist-blog/1.png" alt="发文流程"></p><p><a href="https://hexo.io/zh-cn/docs/" title="文档" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a></p><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>]]></content>
+    <summary type="html">
+    
+      我的第二篇hexo文章，在这里展示哟！
+    
+    </summary>
+    
+      <category term="工具" scheme="https://kmokid.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="博客" scheme="https://kmokid.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="测试" scheme="https://kmokid.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+GitHub 搭建个人免费博客</title>
+    <link href="https://kmokid.github.io/2019/05/09/Hexo+GitHub%20%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://kmokid.github.io/2019/05/09/Hexo+GitHub 搭建个人免费博客/</id>
+    <published>2019-05-09T13:12:53.000Z</published>
+    <updated>2019-05-16T14:07:03.933Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="简介：GitHub-Pages-和-Hexo-amp-原理"><a href="#简介：GitHub-Pages-和-Hexo-amp-原理" class="headerlink" title="简介：GitHub Pages 和 Hexo &amp; 原理"></a>简介：GitHub Pages 和 Hexo &amp; 原理</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>近些年来很多用户都喜欢使用 GitHub Pages 来搭建 Hexo 静态博客网站，其最吸引人的莫过于完全免费使用，并且非常稳定。</p><p>虽然搭建时比较麻烦，有点折腾，但是配置完成后，基本不需要操心维护的事，甚至放了几年都忘记了，打开来看文章依然还在。</p><p>本文就详细介绍下如何使用 Hexo + GitHub 搭建免费个人博客网站的教程。</p><p><strong>参考来自</strong>：<a href="https://zhuanlan.zhihu.com/p/60578464" title="参考资料" target="_blank" rel="noopener">知乎crystal</a></p><h2 id="Hexo-是什么？"><a href="#Hexo-是什么？" class="headerlink" title="Hexo 是什么？"></a>Hexo 是什么？</h2><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p><p><strong>优点和不足</strong></p><p>优点：完全免费；静态站点，轻量快速；可按需求自由定制改造；托管在 GitHub，安全省心；迁移方便……</p><p>不足：发文不便，依赖于本地环境；更适合个人博客使用；GitHub 在国内访问速度有点不快。</p><h2 id="Hexo-GitHub-文章发布原理"><a href="#Hexo-GitHub-文章发布原理" class="headerlink" title="Hexo + GitHub 文章发布原理"></a>Hexo + GitHub 文章发布原理</h2><p><img src="/2019/05/09/Hexo+GitHub 搭建个人免费博客/1.png" alt></p><p><a href="https://hexo.io/zh-cn/docs/" title="文档" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a></p><p>在本地撰写 Markdown 格式文章后，通过 Hexo 解析文档，渲染生成具有主题样式的 HTML 静态网页，再推送到 GitHub 上完成博文的发布。</p><p><strong>注意事项</strong></p><ul><li>输入代码时，核对准确，最好切换成英文输入法；</li></ul><ul><li>将文中的 “用户名” 和 “邮箱” 替换为自己的 GitHub 账户名和绑定的邮箱；</li></ul><ul><li>统一使用 Git Bash 进行操作（支持 Win、Mac）；</li></ul><ul><li>小白请严格按步骤进行，不要跳！</li></ul>]]></content>
     
     <summary type="html">
     
@@ -31,12 +53,14 @@
     
     </summary>
     
+      <category term="学习笔记" scheme="https://kmokid.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="第一篇" scheme="https://kmokid.github.io/tags/%E7%AC%AC%E4%B8%80%E7%AF%87/"/>
     
-      <category term="文章" scheme="https://kmokid.github.io/tags/%E6%96%87%E7%AB%A0/"/>
+      <category term="hexo" scheme="https://kmokid.github.io/tags/hexo/"/>
     
-      <category term="写作" scheme="https://kmokid.github.io/tags/%E5%86%99%E4%BD%9C/"/>
+      <category term="github" scheme="https://kmokid.github.io/tags/github/"/>
+    
+      <category term="博客" scheme="https://kmokid.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   

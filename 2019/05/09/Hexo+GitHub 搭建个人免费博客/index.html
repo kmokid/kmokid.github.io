@@ -16,10 +16,10 @@
     <link rel="dns-prefetch" href="https://kmokid.github.io">
     <!--SEO-->
 
-    <meta name="keywords" content>
+    <meta name="keywords" content="hexo,github,博客">
 
 
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any ...">
+    <meta name="description" content="简介：GitHub Pages 和 Hexo &amp; 原理前言近些年来很多用户都喜欢使用 GitHub Pages 来搭建 Hexo 静态博客网站，其最吸引人的莫过于完全免费使用，并且非常稳...">
 
 
 
@@ -31,7 +31,7 @@
     <!--Title-->
 
 
-<title>Hello World | kmokid在路上</title>
+<title>Hexo+GitHub 搭建个人免费博客 | kmokid在路上</title>
 
 
     <link rel="alternate" href="/atom.xml" title="kmokid在路上" type="application/atom+xml">
@@ -136,16 +136,16 @@
                     <p id="process"></p>
 <article class="post">
     <div class="post-head">
-        <h1 id="Hello World">
+        <h1 id="Hexo+GitHub 搭建个人免费博客">
             
-	            Hello World
+	            Hexo+GitHub 搭建个人免费博客
             
         </h1>
         <div class="post-meta">
     
         <span class="categories-meta fa-wrap">
             <i class="fa fa-folder-open-o"></i>
-            
+            <a class="category-link" href="/categories/学习笔记/">学习笔记</a>
         </span>
     
 
@@ -153,6 +153,8 @@
         <span class="fa-wrap">
             <i class="fa fa-tags"></i>
             <span class="tags-meta">
+                
+                    <a class="tag-link" href="/tags/github/">github</a> <a class="tag-link" href="/tags/hexo/">hexo</a> <a class="tag-link" href="/tags/博客/">博客</a>
                 
             </span>
         </span>
@@ -162,7 +164,7 @@
         
         <span class="fa-wrap">
             <i class="fa fa-clock-o"></i>
-            <span class="date-meta">2019/05/08</span>
+            <span class="date-meta">2019/05/09</span>
         </span>
         
     
@@ -172,15 +174,30 @@
     </div>
     
     <div class="post-body post-content">
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<h3 id="test-no001-files"><a href="#test-no001-files" class="headerlink" title="test no001 files"></a>test no001 files</h3><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <h1 id="简介：GitHub-Pages-和-Hexo-amp-原理"><a href="#简介：GitHub-Pages-和-Hexo-amp-原理" class="headerlink" title="简介：GitHub Pages 和 Hexo &amp; 原理"></a>简介：GitHub Pages 和 Hexo &amp; 原理</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>近些年来很多用户都喜欢使用 GitHub Pages 来搭建 Hexo 静态博客网站，其最吸引人的莫过于完全免费使用，并且非常稳定。</p>
+<p>虽然搭建时比较麻烦，有点折腾，但是配置完成后，基本不需要操心维护的事，甚至放了几年都忘记了，打开来看文章依然还在。</p>
+<p>本文就详细介绍下如何使用 Hexo + GitHub 搭建免费个人博客网站的教程。</p>
+<p><strong>参考来自</strong>：<a href="https://zhuanlan.zhihu.com/p/60578464" title="参考资料" target="_blank" rel="noopener">知乎crystal</a></p>
+<h2 id="Hexo-是什么？"><a href="#Hexo-是什么？" class="headerlink" title="Hexo 是什么？"></a>Hexo 是什么？</h2><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+<p><strong>优点和不足</strong></p>
+<p>优点：完全免费；静态站点，轻量快速；可按需求自由定制改造；托管在 GitHub，安全省心；迁移方便……</p>
+<p>不足：发文不便，依赖于本地环境；更适合个人博客使用；GitHub 在国内访问速度有点不快。</p>
+<h2 id="Hexo-GitHub-文章发布原理"><a href="#Hexo-GitHub-文章发布原理" class="headerlink" title="Hexo + GitHub 文章发布原理"></a>Hexo + GitHub 文章发布原理</h2><p><img src="/2019/05/09/Hexo+GitHub 搭建个人免费博客/1.png" alt></p>
+<p><a href="https://hexo.io/zh-cn/docs/" title="文档" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a></p>
+<p>在本地撰写 Markdown 格式文章后，通过 Hexo 解析文档，渲染生成具有主题样式的 HTML 静态网页，再推送到 GitHub 上完成博文的发布。</p>
+<p><strong>注意事项</strong></p>
+<ul>
+<li>输入代码时，核对准确，最好切换成英文输入法；</li>
+</ul>
+<ul>
+<li>将文中的 “用户名” 和 “邮箱” 替换为自己的 GitHub 账户名和绑定的邮箱；</li>
+</ul>
+<ul>
+<li>统一使用 Git Bash 进行操作（支持 Win、Mac）；</li>
+</ul>
+<ul>
+<li>小白请严格按步骤进行，不要跳！</li>
+</ul>
 
     </div>
     
@@ -198,11 +215,16 @@
 
 <div class="article-nav prev-next-wrap clearfix">
     
-        <a href="/2019/05/09/Hexo+GitHub 搭建个人免费博客/" class="pre-post btn btn-default" title="Hexo+GitHub 搭建个人免费博客">
+        <a href="/2019/05/10/My-second-blog/" class="pre-post btn btn-default" title="My second blog">
             <i class="fa fa-angle-left fa-fw"></i><span class="hidden-lg">上一篇</span>
-            <span class="hidden-xs">Hexo+GitHub 搭建个人免费博客</span>
+            <span class="hidden-xs">My second blog</span>
         </a>
     
+    
+        <a href="/2019/05/08/hello-world/" class="next-post btn btn-default" title="Hello World">
+            <span class="hidden-lg">下一篇</span>
+            <span class="hidden-xs">Hello World</span><i class="fa fa-angle-right fa-fw"></i>
+        </a>
     
 </div>
 
@@ -244,7 +266,7 @@
     <div class="widget">
         <h3 class="title">文章目录</h3>
         
-            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-text">Deploy to remote sites</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#test-no001-files"><span class="toc-text">test no001 files</span></a></li></ol></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#简介：GitHub-Pages-和-Hexo-amp-原理"><span class="toc-text">简介：GitHub Pages 和 Hexo &amp; 原理</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#前言"><span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo-是什么？"><span class="toc-text">Hexo 是什么？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo-GitHub-文章发布原理"><span class="toc-text">Hexo + GitHub 文章发布原理</span></a></li></ol></li></ol>
         
     </div>
 </aside>
