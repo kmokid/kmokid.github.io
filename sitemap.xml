@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://kmokid.github.io/about/index.html</loc>
+    <loc>https://kmokid.github.io/2019/05/10/%E8%BF%9C%E8%B6%B3%E6%97%85%E8%A1%8C/</loc>
     
-    <lastmod>2019-05-16T14:34:33.790Z</lastmod>
+    <lastmod>2019-05-17T03:25:26.282Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://kmokid.github.io/2019/05/10/My-second-blog/</loc>
+    <loc>https://kmokid.github.io/2019/05/09/Hexo+GitHub%20%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2/</loc>
     
-    <lastmod>2019-05-16T14:33:46.718Z</lastmod>
+    <lastmod>2019-05-17T03:12:34.980Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://kmokid.github.io/2019/05/16/PC%E8%BD%AF%E4%BB%B6%E6%95%B4%E7%90%86/</loc>
+    
+    <lastmod>2019-05-16T15:39:55.460Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://kmokid.github.io/about/index.html</loc>
+    
+    <lastmod>2019-05-16T14:34:33.790Z</lastmod>
     
   </url>
   
@@ -26,20 +40,6 @@
     <loc>https://kmokid.github.io/categories/index.html</loc>
     
     <lastmod>2019-05-16T14:20:02.456Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://kmokid.github.io/2019/05/09/Hexo+GitHub%20%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2/</loc>
-    
-    <lastmod>2019-05-16T14:07:03.933Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://kmokid.github.io/2019/05/08/hello-world/</loc>
-    
-    <lastmod>2019-05-08T01:20:05.830Z</lastmod>
     
   </url>
   
